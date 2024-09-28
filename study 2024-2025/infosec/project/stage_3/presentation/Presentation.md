@@ -66,12 +66,9 @@ header-includes:
 
 ## Исходные данные:
 
-Исходные данные:
-- IP сервера 178.72.90.181;
-- Сервис http на стандартном 80 порту;
-- Для авторизации используется html форма, которая отправляет по адресу http://localhost/DVWA/vulnerabilities/brute методом POST запрос вида username=root&password=test_password;
-- В случае не удачной аутентификации пользователь наблюдает сообщение Invalid username and/or password! Please try again.
-- Запрос к Hydra будет выглядеть примерно так:
+- IP сервера 127.0.0.1(localhost);
+- Для авторизации используется html форма, которая отправляет по адресу http://localhost/DVWA/vulnerabilities/brute методом GET запрос вида username=admin&password=test_password;
+- В случае неудачной аутентификации пользователь наблюдает сообщение Username and/or password incorrect.
 
 ## Запрос к Hydra
 
