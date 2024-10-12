@@ -61,6 +61,12 @@ lolTitle: "Листинги"
 ## Misc options
 indent: true
 header-includes:
+  - \usepackage[utf8]{inputenx}
+  - \input{ix-utf8enc.dfu}
+  - \usepackage[T2A]{fontenc}
+  - \usepackage{indentfirst}
+  - \usepackage{float} # keep figures where there are in the text
+  - \floatplacement{figure}{H} # keep figures where there are in the text
   - \usepackage{indentfirst}
   - \usepackage{float} # keep figures where there are in the text
   - \floatplacement{figure}{H} # keep figures where there are in the text
