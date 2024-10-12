@@ -20,16 +20,7 @@ aspectratio: 169
 section-titles: true
 theme: metropolis
 header-includes:
-  - \usepackage[utf8]{inputenx}
-  - \input{ix-utf8enc.dfu}
-  - \usepackage[T2A]{fontenc}
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
-
-  - '\makeatletter'
-  - '\beamer@ignorenonframefalse'
-  - '\makeatother'
+ - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
 ---
 
 # Информация
@@ -43,12 +34,6 @@ header-includes:
 
 # Вводная часть
 
-## Цель Работы
-
-Изучение механизмов изменения идентификаторов, применения SetUID- и Sticky-битов. Получение практических навыков работы в консоли с дополнительными атрибутами. Рассмотрение работы механизма смены идентификатора процессов пользователей, а также влияние бита Sticky на запись и удаление файлов.
-
-
-# Ход работы
 
 # Цель работы
 
